@@ -44,6 +44,7 @@
 ;;;       --->  ((a c) (a () d))
 ;;; works at any depth level
 
+;;; square brackets entirely option
 (define subst
   (lambda (old new input)
     (cond [(null? input) '()]
