@@ -36,7 +36,7 @@
     (cond ((null? lst) '())
 	  ((equal? item (car lst)) (cdr lst))
 	  (else
-	   (cons item
+	   (cons (car lst)
 		 (remove-first item (cdr lst)))))))
 
 
