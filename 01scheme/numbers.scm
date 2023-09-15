@@ -44,6 +44,22 @@
 ;;;       --->  ((a c) (a () d))
 ;;; works at any depth level
 
+(define subst
+  (lambda (old new input)
+    (cond ((null? input)  ________________)
+	  ((list? input)  ________________)
+	  ((equal? input old)   ___________)
+	  (else   _______________________))))
+
+
+
+
+
+
+
+
+
+
 
 
     
