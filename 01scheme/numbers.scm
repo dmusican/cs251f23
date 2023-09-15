@@ -19,3 +19,8 @@
 	    (car lst)
 	    (nth (cdr lst) (- n 1))))))
 	
+(define nth-again
+  (lambda (lst n)
+    (cond ( (null? lst)   #f )
+	  ( (equal? n 0)  (car lst) )
+	  (else (nth-again (cdr lst) (- n 1))))))
