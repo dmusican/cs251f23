@@ -33,11 +33,15 @@
 ;;; returns a new list that consists of an item removed
 (define remove-first
   (lambda (lst item)
-    (cond ((null? lst) '())
-	  ((equal? item (car lst)) (cdr lst))
-	  (else
-	   (cons (car lst)
-		 (remove-first item (cdr lst)))))))
+    lst))
+    
+
+
+;    (cond ((null? lst) '())
+;	  ((equal? item (car lst)) (cdr lst))
+;	  (else
+;	   (cons (car lst)
+;		 (remove-first item (cdr lst)))))))
 
 
 
