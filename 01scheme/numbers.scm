@@ -23,4 +23,5 @@
   (lambda (lst n)
     (cond ((null? lst)  #f)
 	  ((equal? n 0) (car lst))
+	  ((< n 0) #f)
 	  (else (nth-again (cdr lst) (- n 1))))))
