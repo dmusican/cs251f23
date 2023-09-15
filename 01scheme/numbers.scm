@@ -45,7 +45,7 @@
 ;;; works at any depth level
 
 (define subst
-  (lambda (old new input)
+  (lambda [old new input]
     (cond ((null? input) '())
 
 	  
