@@ -46,16 +46,15 @@
 
 (define subst
   (lambda (old new input)
-    (cond ((null? input) '())
-
+    (cond [(null? input) '()]
 	  
-	  ((list? input)
+	  [(list? input)
 	   (cons
 	    (subst old new (car input))
-	    (subst old new (cdr input))))
+	    (subst old new (cdr input)))]
 
-	  ((equal? input old) new)
-	  (else input))))
+	  [(equal? input old) new]
+	  [else input])))
 
 
 
