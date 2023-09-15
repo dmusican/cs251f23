@@ -25,3 +25,21 @@
 	  ((equal? n 0) (car lst))
 	  ((< n 0) #f)
 	  (else (nth-again (cdr lst) (- n 1))))))
+
+;;; So far, all these functions return a single value
+
+;;; Now let's return a list
+
+;;; returns a new list that consists of an item removed
+(define remove-first
+  (lambda (lst item)
+    (cond ((null? lst) '())
+	  ((equal? item (car lst)) (cdr lst))
+	  (else
+	   (cons item
+		 (remove-first item (cdr lst)))))))
+
+
+
+
+    
