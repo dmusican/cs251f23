@@ -39,6 +39,10 @@
 	   (cons (car lst)
 		 (remove-first (cdr lst) item))))))
 
+;;; substitutes an item for another
+;;; (subst 'b 'a '((b c) (b () d)))
+;;;       --->  ((a c) (a () d))
+;;; works at any depth level
 
 
 
