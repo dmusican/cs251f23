@@ -21,6 +21,6 @@
 	
 (define nth-again
   (lambda (lst n)
-    (cond ( (null? lst)   #f )
-	  ( (equal? n 0)  (car lst) )
+    (cond ((null? lst)  #f)
+	  ((equal? n 0) (car lst))
 	  (else (nth-again (cdr lst) (- n 1))))))
