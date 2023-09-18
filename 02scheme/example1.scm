@@ -118,3 +118,10 @@
 ;;; (- 1 (- 2 0))
 ;;; (- 1 2)
 ;;; -1
+
+;;; (fold-right cons '() '(1 2))
+;;; (cons 1 (fold-right cons '() '(2)))
+;;; (cons 1 (cons 2 (fold-right cons '() '())))
+;;; (cons 1 (cons 2 '()))
+;;; (cons 1 '(2))
+;;; '( 1 2)
