@@ -100,7 +100,7 @@
 			 words))))
 
 (count-word 'squirrel text)
-
+(count-word 'quick text)
 
 
 
