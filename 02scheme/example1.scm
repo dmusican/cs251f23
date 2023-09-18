@@ -51,5 +51,11 @@
 ;;;   ... the car of the list and the result
 ;;;   ... to a recursive call to fold-right
 
-(fold-left - 0 '(1 2))
+(fold-right - 0 '(1 2))
+;;; (- 0 (fold-right - 1 '(2))
+;;; (- 0 (- 1 (fold-right - 2 '())))
+;;; ..........
+;;; (- 0 (- 1 2))
+;;; (- 0 -1)
+;;; -1
 
