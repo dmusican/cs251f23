@@ -28,6 +28,14 @@
 
 (map add-one '(1 9 8 2 12))
 
+;;; reduce --- Scheme calls it "fold"
+;;; fold-left / fold-right
+
+
+
+
+
+
 
 
 
