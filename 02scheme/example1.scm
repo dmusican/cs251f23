@@ -102,6 +102,12 @@
 (count-word 'squirrel text)
 (count-word 'quick text)
 
+(define indicator
+  (lambda (word)
+    (if (equal? word target)
+	1
+	0)))
 
-
-
+(define count-word
+  (lambda (target words)
+    (fold-left + 0  (map indicator words))))
