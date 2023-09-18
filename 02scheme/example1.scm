@@ -31,6 +31,8 @@
 ;;; reduce --- Scheme calls it "fold"
 ;;; fold-left / fold-right
 
+(fold-left + 0 '(1 2 3))
+
 
 
 
