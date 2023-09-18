@@ -41,6 +41,10 @@
 (use-modules (rnrs))
 (fold-left + 81 '(1 2 3))
 
+;;; (fold-left (+ 81 1) '(2 3))
+;;; (fold-left 82 '(2 3))
+;;; 
+
 
 
 
