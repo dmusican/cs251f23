@@ -1,4 +1,3 @@
-(use-modules (rnrs))
 ;;; Currying (Haskell Curry)
 ;;; Function of "multiple parameters" is instead
 ;;; a function of one parameter than returns
@@ -32,6 +31,7 @@
 ;;; reduce --- Scheme calls it "fold"
 ;;; fold-left / fold-right
 
+(use-modules (rnrs))
 (fold-left + 0 '(1 2 3))
 
 
