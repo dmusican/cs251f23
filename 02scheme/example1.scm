@@ -102,14 +102,14 @@
 (count-word 'squirrel text)
 (count-word 'quick text)
 
-(define indicator
-  (lambda (word)
-    (if (equal? word target)
-	1
-	0)))
-
+;;; let creates local variables
 (define count-word-again
   (lambda (target words)
-    (fold-left + 0  (map indicator words))))
+    (let ((indicator
+	   (lambda (word)
+	     (if (equal? word target)
+		 1
+		 0))))
+      (fold-left + 0  (map indicator words)))))
 
 (count-word-again 'quick text)
