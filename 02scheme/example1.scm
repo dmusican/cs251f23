@@ -46,16 +46,10 @@
 ;;; (fold-left + 87 '())
 ;;; 87
 
+;;; fold-right, same parameters
+;;; applies the function that you give it to:
+;;;   ... the car of the list and the result
+;;;   ... to a recursive call to fold-right
 
-
-
-
-
-
-
-
-
-
-
-
+(fold-left - 0 '(1 2))
 
