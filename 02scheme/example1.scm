@@ -93,7 +93,7 @@
 ;;; where 1 means word is there, 0 not
 (define count-word
   (lambda (target words)
-    (fold-left + 0  
+    (fold-left + 0  ........ 
 
 
 
