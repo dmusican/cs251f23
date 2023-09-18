@@ -77,11 +77,16 @@
 		(happy cheetahs)
 		(angry tigers)))
 
+;;; (map length lists)
+;;; (3 3 1 2 2)
 (define total-length
   (lambda (documents)
     (fold-left + 0 (map length documents))))
 
 (total-length lists)
+
+;;; count how many times a word appears within a
+;;; list
 
 
 
