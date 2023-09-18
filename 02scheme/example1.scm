@@ -133,5 +133,7 @@
 ;;; side-effect = a change outside of the function
 ;;;    that is visible (apart from the return
 ;;;                       value)
+;;; side-effect-free code is much easier
+;;; .... to debug and optimize
 
 
