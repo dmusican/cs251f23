@@ -111,3 +111,5 @@
 (define count-word-again
   (lambda (target words)
     (fold-left + 0  (map indicator words))))
+
+(count-word-again 'quick text)
