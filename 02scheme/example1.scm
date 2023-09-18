@@ -30,9 +30,20 @@
 
 ;;; reduce --- Scheme calls it "fold"
 ;;; fold-left / fold-right
+;;; fold-left takes three parameters
+;;;   - a function of two values
+;;;   - an initial value
+;;;   - a list
+;;; repeatedly in applies the function
+;;;   ... to the current value and the next item
+;;;   ... in the list
 
 (use-modules (rnrs))
-(fold-left + 0 '(1 2 3))
+(fold-left + 81 '(1 2 3))
+
+
+
+
 
 
 
