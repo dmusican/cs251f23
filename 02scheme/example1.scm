@@ -81,6 +81,7 @@
   (lambda (documents)
     (fold-left + 0 (map length documents))))
 
+(total-length lists)
 
 
 
