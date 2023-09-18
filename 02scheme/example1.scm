@@ -125,3 +125,8 @@
 ;;; (cons 1 (cons 2 '()))
 ;;; (cons 1 '(2))
 ;;; '( 1 2)
+
+;;;; and now for something completely different
+;;; SIDE EFFECT?
+
+
