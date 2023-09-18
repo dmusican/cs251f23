@@ -69,5 +69,12 @@
 (fold-right cons '() '(1 2 3))
 
 
+;;; Actual useful examples
+;;; Add up the lengths of a bunch of lists
+
+
+
+
+
 
 
