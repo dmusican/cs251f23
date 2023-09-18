@@ -16,3 +16,16 @@
 
   
 ;;; map/reduce
+
+;;; map
+;;; "sort of looping in Scheme"
+(define add-one
+  (lambda (x)
+    (+ x 1)))
+
+(map add-one '(1 9 8 2 12))
+
+
+
+
+
