@@ -131,6 +131,7 @@
 ;;; a key feature of functional programming
 ;;; is that there are (hopefully) no side-effect
 ;;; side-effect = a change outside of the function
-;;;    that is visible (apart from the return value)
+;;;    that is visible (apart from the return
+;;;                       value)
 
 
