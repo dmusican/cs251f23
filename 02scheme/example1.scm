@@ -51,13 +51,8 @@
 ;;;   ... the car of the list and the result
 ;;;   ... to a recursive call to fold-right
 
-(fold-right - 0 '(1 2))
-;;; (- 0 (fold-right - 1 '(2))
-;;; (- 0 (- 1 (fold-right - 2 '())))
-;;; ..........
-;;; (- 0 (- 1 2))
-;;; (- 0 -1)
-;;; -1
+
+;;; Look below
 
 (fold-right - 0 '(1 2 3))
 
@@ -103,6 +98,7 @@
 (count-word 'quick text)
 
 ;;; let creates local variables
+;;; (let ((a 3) (b 5) (c 7)) .....)
 (define count-word-again
   (lambda (target words)
     (let ((indicator
@@ -113,3 +109,12 @@
       (fold-left + 0  (map indicator words)))))
 
 (count-word-again 'quick text)
+
+
+;;; fold-right
+;;; (fold-right - 0 '(1 2))
+;;; (- 1 (fold-right - 0 '(2)))
+;;; (- 1 (- 2 (fold-right - 0 '())))
+;;; (- 1 (- 2 0))
+;;; (- 1 2)
+;;; -1
