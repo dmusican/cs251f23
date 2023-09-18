@@ -77,6 +77,9 @@
 		(happy cheetahs)
 		(angry tigers)))
 
+(define total-length
+  (lambda (documents)
+    (fold-left + 0 (map length documents))))
 
 
 
