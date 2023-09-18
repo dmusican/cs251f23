@@ -89,6 +89,11 @@
 ;;; list
 (define text '(the quick brown fox at a fox squirrel squirrel quick quick))
 
+;;; think about adding a list of 1s and 0s
+;;; where 1 means word is there, 0 not
+(define count-word
+  (lambda (target words)
+    (fold-left + 0  
 
 
 
