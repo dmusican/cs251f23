@@ -108,6 +108,6 @@
 	1
 	0)))
 
-(define count-word
+(define count-word-again
   (lambda (target words)
     (fold-left + 0  (map indicator words))))
