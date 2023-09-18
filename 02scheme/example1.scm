@@ -19,6 +19,9 @@
 
 ;;; map
 ;;; "sort of looping in Scheme"
+;;; two parameters: a function of one parameter
+;;;  ... and a list
+;;; it applies that function to each item in list
 (define add-one
   (lambda (x)
     (+ x 1)))
