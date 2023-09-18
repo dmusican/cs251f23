@@ -87,6 +87,7 @@
 
 ;;; count how many times a word appears within a
 ;;; list
+(define text '(the quick brown fox at a fox squirrel squirrel quick quick))
 
 
 
