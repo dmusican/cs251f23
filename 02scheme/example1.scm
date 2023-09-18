@@ -8,5 +8,10 @@
   (lambda (a b)
     (* a b)))
 
+;;; curried
+(define mult-curried
+  (lambda (a)
+    (lambda (b)
+      (* a b))))
 
   
