@@ -71,6 +71,12 @@
 
 ;;; Actual useful examples
 ;;; Add up the lengths of a bunch of lists
+(define lists '((the fox jumped)
+		(the cow mooed)
+		(birds)
+		(happy cheetahs)
+		(angry tigers)))
+
 
 
 
