@@ -1,3 +1,4 @@
+(use-modules (rnrs))
 ;;; Currying (Haskell Curry)
 ;;; Function of "multiple parameters" is instead
 ;;; a function of one parameter than returns
