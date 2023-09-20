@@ -1,3 +1,4 @@
+from random import randrange
 items = [('horse', 9), ('cow', 3), ('zebra', 0)]
 print(sorted(items))
 
@@ -14,3 +15,5 @@ print(sorted(items, key=get_second_item))
 print(sorted(items, key=lambda t: t[1]))
 print(sorted(items,
     key=lambda animal_facts: animal_facts[1]))
+
+print(sorted(items, key=lambda val: randrange(1000))
