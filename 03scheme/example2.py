@@ -21,3 +21,4 @@ def remove_first(lst):
     lst.pop()      # removes first item from lst
                     # ... so it's a side-effect
     print("working")   # side-effect
+    return None
