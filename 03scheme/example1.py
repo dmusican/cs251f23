@@ -9,4 +9,4 @@ print(sorted(items))
 def get_second_item(animal_facts):
     return animal_facts[1]
 
-print(sorted(items, key=get_second_item)
+print(sorted(items, key=get_second_item))
