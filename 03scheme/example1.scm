@@ -18,3 +18,5 @@ mylist
 ((cdr mylist))
 ;;; next item
 (car ((cdr mylist)))
+;;; next lazylist
+((cdr ((cdr mylist))))
