@@ -12,3 +12,5 @@ def get_second_item(animal_facts):
 print(sorted(items, key=get_second_item))
 
 print(sorted(items, key=lambda t: t[1]))
+print(sorted(items,
+    key=lambda animal_facts: animal_facts[1]))
