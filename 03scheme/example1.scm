@@ -12,4 +12,7 @@
 mylist
 ;;; first item
 (car mylist)
+;;; function to generate more lazylists
 (cdr mylist)
+;;; run that function
+((cdr mylist))
