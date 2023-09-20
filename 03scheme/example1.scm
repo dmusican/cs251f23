@@ -10,3 +10,5 @@
 
 (define mylist (gen-lazy-list 1 3))
 mylist
+;;; first item
+(car mylist)
