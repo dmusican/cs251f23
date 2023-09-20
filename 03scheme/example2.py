@@ -22,3 +22,10 @@ def remove_first(lst):
                     # ... so it's a side-effect
     print("working")   # side-effect
     return None
+
+items = [5, 6, 7]
+print(count)
+print(items)
+remove_first(items)
+print(count)
+print(items)
