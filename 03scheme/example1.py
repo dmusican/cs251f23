@@ -25,3 +25,8 @@ new_items = items.copy()
 for i in range(len(new_items)):
     new_items[i] = new_items[i] + 1
 print(new_items)
+
+# instead
+items = [9, 2, 1, 3, 5]
+new_items = list(map(lambda entry: entry+1, items))
+print(new_items)
