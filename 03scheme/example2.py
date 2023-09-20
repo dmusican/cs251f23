@@ -29,3 +29,5 @@ print(items)
 remove_first(items)
 print(count)
 print(items)
+
+# Why can side-effects be bad?
