@@ -16,4 +16,4 @@ print(sorted(items, key=lambda t: t[1]))
 print(sorted(items,
     key=lambda animal_facts: animal_facts[1]))
 
-print(sorted(items, key=lambda val: randrange(1000))
+print(sorted(items, key=lambda val: randrange(1000)))
