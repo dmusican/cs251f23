@@ -17,4 +17,4 @@ mylist
 ;;; run that function
 ((cdr mylist))
 ;;; next item
-(car ((cdr mylist))
+(car ((cdr mylist)))
