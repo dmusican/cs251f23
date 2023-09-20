@@ -12,3 +12,4 @@
 mylist
 ;;; first item
 (car mylist)
+(cdr mylist)
