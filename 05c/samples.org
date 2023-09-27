@@ -1,6 +1,6 @@
 #+title: C code samples
 
-#+PROPERTY: header-args:C :results output ##:includes <stdio.h>
+#+PROPERTY: header-args:C :results output :includes <stdio.h>
 
 #+begin_src C :exports both
 int main() {
