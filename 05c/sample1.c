@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-    int *x = malloc(sizeof(int0));
+    int *x = malloc(sizeof(int));
     *x = 6;
     printf("%i\n", *x);
     int *y = x;
