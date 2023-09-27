@@ -10,13 +10,3 @@ int main() {
 
 #+RESULTS:
 : a thing
-
-
-#+begin_src C :exports both
-int main() {
-    printf("Hey dave");
-}
-#+end_src
-
-#+RESULTS:
-: Hey dave
