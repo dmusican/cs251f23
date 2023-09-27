@@ -8,6 +8,9 @@ int main() {
 }
 #+end_src
 
+#+RESULTS:
+: a thing
+
 
 #+begin_src C :exports both
 int main() {
