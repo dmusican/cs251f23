@@ -5,3 +5,6 @@
 // (but sometimes useful)
 
 int main() {
+    int x = 6;
+    printf("%i\n", x);
+}
