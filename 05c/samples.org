@@ -1,0 +1,19 @@
+#+title: C code samples
+
+#+PROPERTY: header-args:C :results output :exports both :includes <stdio.h>
+
+#+begin_src C :exports both
+int main() {
+    printf("a thing\n");
+}
+#+end_src
+
+
+#+begin_src C :exports both
+int main() {
+    printf("Hey dave");
+}
+#+end_src
+
+#+RESULTS:
+: Hey dave
