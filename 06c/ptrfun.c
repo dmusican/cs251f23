@@ -11,5 +11,5 @@ int main() {
     int x = 9;
     int result = c[x];
     printf("Your answer is %i\n", result);
-    printf("%i\n", c[x]);
+    printf("%i\n", result);
 }
