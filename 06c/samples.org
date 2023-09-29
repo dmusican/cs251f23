@@ -43,7 +43,7 @@ int main() {
 
 * Example number 2, with pointers
 
-
+I want to create the array in the heap
 #+begin_src C :exports both
 int main() {
     int a[3];
