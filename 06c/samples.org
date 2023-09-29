@@ -15,8 +15,11 @@ int main() {
     }
 
     // This is bad
-    int x = 3;
-    printf("beyond: %i\n", a[x]);
+    //int x = 3;
+    //printf("beyond: %i\n", a[x]);
+
+    int b[3];
+    b = a;
 }
 #+end_src
 
