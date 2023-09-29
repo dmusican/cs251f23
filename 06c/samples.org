@@ -20,12 +20,11 @@ int main() {
 
     // How do I copy?
     int b[3];
-    b = a;
+    // b = a;   doesn't work
+    for (int j=0; j < 3; j++) {
+        b[j] = a[j];
+    }
 }
 #+end_src
 
 #+RESULTS:
-: a[0] = 0
-: a[1] = 1
-: a[2] = 2
-: beyond: 0
