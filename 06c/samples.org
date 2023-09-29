@@ -11,10 +11,9 @@ int main() {
 
 
     for (int j=0; j < 3; j++) {
-        print("a[%i] = %i\n", j, a[j]);
+        printf("a[%i] = %i\n", j, a[j]);
     }
 }
 #+end_src
 
 #+RESULTS:
-: a thing
