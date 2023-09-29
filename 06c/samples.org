@@ -62,8 +62,10 @@ int main() {
     int *d;
     d = c;
 
+    d[1] = 19;
 
     for (int j=0; j < 3; j++) {
+        printf("c[%i] = %i\n", j, c[j]);
         printf("d[%i] = %i\n", j, d[j]);
     }
 }
