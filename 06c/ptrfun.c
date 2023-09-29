@@ -8,7 +8,7 @@ int main() {
         c[j] = j;
     }
 
-    //free(c);
+    free(c);
 
     for (int j=0; j < 3; j++) {
         printf("c[%i] = %i\n", j, c[j]);
