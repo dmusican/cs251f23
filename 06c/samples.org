@@ -1,0 +1,12 @@
+#+title: C code samples
+
+#+PROPERTY: header-args:C :results output :includes <stdio.h> :xournalpp /tmp/rip.c
+
+#+begin_src C :exports both
+int main() {
+    printf("a thing\n");
+}
+#+end_src
+
+#+RESULTS:
+: a thing
