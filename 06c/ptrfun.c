@@ -9,5 +9,7 @@ int main() {
     }
 
     int x = 9;
+    int result = c[x];
+    print("Your answer is %i\n", result);
     printf("%i\n", c[x]);
 }
