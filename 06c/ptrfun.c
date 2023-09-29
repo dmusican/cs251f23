@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 int main() {
 
     // array of size 3
