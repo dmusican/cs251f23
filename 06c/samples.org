@@ -57,6 +57,7 @@ int main() {
     for (int j=0; j < 3; j++) {
         printf("c[%i] = %i\n", j, c[j]);
     }
+}
 #+end_src
 
 #+RESULTS:
