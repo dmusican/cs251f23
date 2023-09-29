@@ -13,4 +13,7 @@ int main() {
     printf("The answer should be 2.\n");
     printf("Your answer is %i\n", result);
     printf("%i\n", result);
+
+    c = malloc(5 * sizeof(int));
+    c[4] = 19;
 }
