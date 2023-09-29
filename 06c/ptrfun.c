@@ -8,14 +8,20 @@ int main() {
         c[j] = j;
     }
 
-    int x = 2;
-    int result = c[x];
-    printf("The answer should be 2.\n");
-    printf("Your answer is %i\n", result);
-    printf("%i\n", result);
+    free(c);
 
-    free(c);
-    c = malloc(5 * sizeof(int));
-    c[4] = 19;
-    free(c);
+    for (int j=0; j < 3; j++) {
+        printf("c[%i] = %i\n", j, c[j]);
+    }
+
+/*     int x = 2; */
+/*     int result = c[x]; */
+/*     printf("The answer should be 2.\n"); */
+/*     printf("Your answer is %i\n", result); */
+/*     printf("%i\n", result); */
+
+/*     free(c); */
+/*     c = malloc(5 * sizeof(int)); */
+/*     c[4] = 19; */
+/*     free(c); */
 }
