@@ -10,6 +10,7 @@ int main() {
 
     int x = 9;
     int result = c[x];
+    printf("The answer should be 0.\n");
     printf("Your answer is %i\n", result);
     printf("%i\n", result);
 }
