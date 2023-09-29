@@ -63,7 +63,7 @@ int main() {
     d = c;
 
     d[1] = 19;
-
+    printf("\n");
     for (int j=0; j < 3; j++) {
         printf("c[%i] = %i\n", j, c[j]);
         printf("d[%i] = %i\n", j, d[j]);
@@ -75,6 +75,9 @@ int main() {
 : c[0] = 0
 : c[1] = 1
 : c[2] = 2
+: c[0] = 0
 : d[0] = 0
-: d[1] = 1
+: c[1] = 19
+: d[1] = 19
+: c[2] = 2
 : d[2] = 2
