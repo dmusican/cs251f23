@@ -8,6 +8,6 @@ int main() {
         c[j] = j;
     }
 
-    int x = 4;
+    int x = 9;
     printf("%i\n", c[x]);
 }
