@@ -8,7 +8,7 @@ int main() {
         c[j] = j;
     }
 
-    int x = 3;
+    int x = 2;
     int result = c[x];
     printf("The answer should be 2.\n");
     printf("Your answer is %i\n", result);
