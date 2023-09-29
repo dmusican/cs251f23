@@ -57,7 +57,19 @@ int main() {
     for (int j=0; j < 3; j++) {
         printf("c[%i] = %i\n", j, c[j]);
     }
+
+    // Alias this with another variable name
+    int *d;
+    d = c;
+
+
+    for (int j=0; j < 3; j++) {
+        printf("d[%i] = %i\n", j, c[j]);
+    }
 }
 #+end_src
 
 #+RESULTS:
+: c[0] = 0
+: c[1] = 1
+: c[2] = 2
