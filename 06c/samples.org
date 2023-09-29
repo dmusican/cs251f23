@@ -14,7 +14,7 @@ int main() {
         printf("a[%i] = %i\n", j, a[j]);
     }
 
-    printf("%i\n", a[3]);
+    printf("beyond: %i\n", a[3]);
 }
 #+end_src
 
