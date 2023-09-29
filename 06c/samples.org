@@ -14,7 +14,8 @@ int main() {
         printf("a[%i] = %i\n", j, a[j]);
     }
 
-    printf("beyond: %i\n", a[3]);
+    int x = 3;
+    printf("beyond: %i\n", a[x]);
 }
 #+end_src
 
@@ -22,3 +23,4 @@ int main() {
 : a[0] = 0
 : a[1] = 1
 : a[2] = 2
+: beyond: 0
