@@ -61,6 +61,7 @@ int main() {
     // Alias this with another variable name
     int *d;
     d = c;
+    // int *d = c;
 
     d[1] = 19;
     printf("\n");
@@ -72,12 +73,15 @@ int main() {
 #+end_src
 
 #+RESULTS:
-: c[0] = 0
-: c[1] = 1
-: c[2] = 2
-: c[0] = 0
-: d[0] = 0
-: c[1] = 19
-: d[1] = 19
-: c[2] = 2
-: d[2] = 2
+#+begin_example
+c[0] = 0
+c[1] = 1
+c[2] = 2
+
+c[0] = 0
+d[0] = 0
+c[1] = 19
+d[1] = 19
+c[2] = 2
+d[2] = 2
+#+end_example
