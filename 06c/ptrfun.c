@@ -17,5 +17,5 @@ int main() {
     free(c);
     c = malloc(5 * sizeof(int));
     c[4] = 19;
-    free(c);
+//    free(c);
 }
