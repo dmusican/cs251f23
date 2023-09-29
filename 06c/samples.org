@@ -4,7 +4,15 @@
 
 #+begin_src C :exports both
 int main() {
-    printf("a thing\n");
+    int a[3];
+    for (int j=0; j < 3; j++) {
+        a[j] = j;
+    }
+
+
+    for (int j=0; j < 3; j++) {
+        print("a[%i] = %i\n", j, a[j]);
+    }
 }
 #+end_src
 
