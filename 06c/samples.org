@@ -13,7 +13,12 @@ int main() {
     for (int j=0; j < 3; j++) {
         printf("a[%i] = %i\n", j, a[j]);
     }
+
+    printf("%i\n", a[3]);
 }
 #+end_src
 
 #+RESULTS:
+: a[0] = 0
+: a[1] = 1
+: a[2] = 2
