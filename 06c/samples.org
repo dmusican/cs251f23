@@ -46,6 +46,10 @@ int main() {
 I want to create the array in the heap
 #+begin_src C :exports both
 int main() {
+
+    // array of size 3
+    int *c = malloc(3 * sizeof(int));
+
     int a[3];
     for (int j=0; j < 3; j++) {
         a[j] = j;
