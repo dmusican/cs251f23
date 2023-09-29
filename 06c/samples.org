@@ -45,6 +45,7 @@ int main() {
 
 I want to create the array in the heap
 #+begin_src C :exports both
+#include <stdlib.h>
 int main() {
 
     // array of size 3
@@ -57,3 +58,5 @@ int main() {
         print("c[%i] = %i\n", j, c[j]);
     }
 #+end_src
+
+#+RESULTS:
