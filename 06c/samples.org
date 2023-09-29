@@ -50,8 +50,10 @@ int main() {
     // array of size 3
     int *c = malloc(3 * sizeof(int));
 
-    int a[3];
     for (int j=0; j < 3; j++) {
-        a[j] = j;
+        c[j] = j;
+    }
+    for (int j=0; j < 3; j++) {
+        print("c[%i] = %i\n", j, c[j]);
     }
 #+end_src
