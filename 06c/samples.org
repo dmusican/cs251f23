@@ -41,7 +41,7 @@ int main() {
 : b[2] = 2
 
 
-
+* Example number 2, with pointers
 
 
 #+begin_src C :exports both
