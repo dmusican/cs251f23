@@ -14,6 +14,8 @@ int main() {
     printf("Your answer is %i\n", result);
     printf("%i\n", result);
 
+    free(c);
     c = malloc(5 * sizeof(int));
     c[4] = 19;
+    free(c);
 }
