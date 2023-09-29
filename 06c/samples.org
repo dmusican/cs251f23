@@ -24,6 +24,11 @@ int main() {
     for (int j=0; j < 3; j++) {
         b[j] = a[j];
     }
+
+    for (int j=0; j < 3; j++) {
+        printf("b[%i] = %i\n", j, b[j]);
+    }
+
 }
 #+end_src
 
