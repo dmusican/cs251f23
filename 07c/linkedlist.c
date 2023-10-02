@@ -23,6 +23,7 @@ void displayLL(LinkedList *list) {
         printf("%i\n", current->value);
         current = current->next;
     }
+}
 
 int main() {
     LinkedList *list = NULL;
