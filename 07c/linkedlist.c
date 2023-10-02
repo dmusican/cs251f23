@@ -7,7 +7,7 @@ struct LinkedList {
 
 
 int main() {
-    LinkedList *list = NULL;
+    struct LinkedList *list = NULL;
     list.insertFrontLL(list, 12);
 
     // print list
