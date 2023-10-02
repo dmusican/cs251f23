@@ -5,7 +5,7 @@ struct LinkedList {
     struct LinkedList *next;
 };
 
-typedef struct LinkedList Potato;
+typedef struct LinkedList LinkedList;
 
 
 int main() {
