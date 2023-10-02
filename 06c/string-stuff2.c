@@ -3,9 +3,12 @@
 
 
 int main() {
-    char *pet = "dog";
-    printf("%s\n", pet);
+    /* char *pet = "dog"; */
+    /* printf("%s\n", pet); */
 
-    pet[0] = 'm';
-    printf("%s\n", pet);
+    /* pet[0] = 'm'; */
+    /* printf("%s\n", pet); */
+
+    // to modify, most use your own array
+    cha
 }
