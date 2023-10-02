@@ -16,4 +16,5 @@ int main() {
     printf("%s\n", pet);
     pet[0] = 'm';
     printf("%s\n", pet);
+    printf("%c\n", pet[0]);
 }
