@@ -5,9 +5,11 @@ struct LinkedList {
     struct LinkedList *next;
 };
 
+typedef struct LinkedList Potato;
+
 
 int main() {
-    struct LinkedList *list = NULL;
+    Potato *list = NULL;
     list.insertFrontLL(list, 12);
 
     // print list
