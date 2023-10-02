@@ -18,6 +18,6 @@ int main() {
     printf("%s\n", pet);
     printf("%i\n", pet[0]);
     printf("%i\n", pet[4]);
-    printf("length is %i\n",
+    printf("length is %ul\n",
            strlen(pet));
 }
