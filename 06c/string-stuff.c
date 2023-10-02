@@ -10,5 +10,6 @@ int main() {
     pet[2] = 'g';
     pet[3] = '\0';
     printf("%s\n", pet);
+    free(pet);
 
 }
