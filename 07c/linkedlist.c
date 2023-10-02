@@ -7,7 +7,8 @@ struct LinkedList {
 
 typedef    struct LinkedList    LinkedList;
 
-LinkedList insertFrontLL(alist, avalue) {
+LinkedList *insertFrontLL(
+    LinkedList *alist, int avalue) {
 
 int main() {
     LinkedList *list = NULL;
