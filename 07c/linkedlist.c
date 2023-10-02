@@ -19,7 +19,7 @@ LinkedList *insertFrontLL(
 
 int main() {
     LinkedList *list = NULL;
-    insertFrontLL(list, 12);
+    insertFrontLL(list, 18);
 
     // print list
 }
