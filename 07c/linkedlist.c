@@ -31,4 +31,5 @@ int main() {
     list = insertFrontLL(list, 18);
 
     // print list
+    displayLL(list);
 }
