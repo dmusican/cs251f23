@@ -10,5 +10,9 @@ int main() {
     /* printf("%s\n", pet); */
 
     // to modify, most use your own array
-    cha
+    char pet[4];
+    strcpy(pet, "dog");
+    printf("%s\n", pet);
+    pet[0] = 'm';
+    printf("%s\n", pet);
 }
