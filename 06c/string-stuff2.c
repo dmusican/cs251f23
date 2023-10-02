@@ -17,4 +17,5 @@ int main() {
     pet[0] = 'm';
     printf("%s\n", pet);
     printf("%i\n", pet[0]);
+    printf("%i\n", pet[4]);
 }
