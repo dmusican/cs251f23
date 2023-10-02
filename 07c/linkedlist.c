@@ -9,7 +9,7 @@ typedef struct LinkedList LinkedList;
 
 
 int main() {
-    Potato *list = NULL;
+    LinkedList *list = NULL;
     list.insertFrontLL(list, 12);
 
     // print list
