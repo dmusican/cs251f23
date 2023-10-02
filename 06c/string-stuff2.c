@@ -11,7 +11,7 @@ int main() {
     /* printf("%s\n", pet); */
 
     // to modify, most use your own array
-    char pet[4];
+    char pet[400];
     strcpy(pet, "dog");
     printf("%s\n", pet);
     pet[0] = 'm';
