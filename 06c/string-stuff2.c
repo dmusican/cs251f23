@@ -4,5 +4,5 @@
 
 int main() {
     char *pet = "dog";
-    print("%s\n", pet);
+    printf("%s\n", pet);
 }
