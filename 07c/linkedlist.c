@@ -10,7 +10,7 @@ typedef    struct LinkedList    LinkedList;
 
 int main() {
     LinkedList *list = NULL;
-    list.insertFrontLL(list, 12);
+    insertFrontLL(list, 12);
 
     // print list
 }
