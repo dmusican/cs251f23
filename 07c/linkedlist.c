@@ -48,4 +48,5 @@ int main() {
 
     // print list
     displayLL(list);
+    cleanup(list);
 }
