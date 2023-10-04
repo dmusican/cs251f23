@@ -25,6 +25,17 @@ void displayLL(LinkedList *list) {
     }
 }
 
+
+
+
+
+
+
+void cleanup(LinkedList *list) {
+    free(list);
+}
+
+
 int main() {
     LinkedList *list = NULL;
     list = insertFrontLL(list, 2);
