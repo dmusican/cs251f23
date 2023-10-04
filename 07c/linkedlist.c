@@ -29,8 +29,6 @@ void displayLL(LinkedList *list) {
 
 
 
-
-
 void cleanup(LinkedList *list) {
     LinkedList *current = list;
     while (current != NULL) {
