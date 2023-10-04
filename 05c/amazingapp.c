@@ -2,6 +2,6 @@
 #include "moretools.h"
 
 int main() {
-    Container c
-    MetaContainer m;
+    struct Container c
+    struct MetaContainer m;
 }
