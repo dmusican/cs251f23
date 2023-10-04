@@ -2,4 +2,4 @@
 
 struct MetaContainer {
     Container c;
-}
+};
