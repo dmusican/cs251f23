@@ -32,7 +32,11 @@ void displayLL(LinkedList *list) {
 
 
 void cleanup(LinkedList *list) {
-    free(list);
+    LinkedList *current = list;
+    while (current != NULL) {
+        free(current);
+        current = current->next;
+    }
 }
 
 
