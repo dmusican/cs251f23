@@ -1,5 +1,5 @@
 #include "tools.h"
 
 struct MetaContainer {
-    Container c;
+    struct Container c;
 };
