@@ -11,7 +11,8 @@ int multiply(int x, int y) {
 }
 
 int doit(int (*f)(int, int), int a, int b) {
-    return f(a,b);
+    return (*f)(a,b);
+    //return f(a,b);
 }
 
 
