@@ -3,7 +3,7 @@ public class InfExample {
         // Scanner scanner = new Scanner();
         // String word1 = "hello";
         // infers (figures out) that word1 is a String
-        String word1 = "hello";
+        var word1 = "hello";
         word1 = 3;
     }
 }
