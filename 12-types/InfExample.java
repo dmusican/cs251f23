@@ -4,6 +4,9 @@ public class InfExample {
         // String word1 = "hello";
         // infers (figures out) that word1 is a String
         var word1 = "hello";
-        word1 = 3;
+        var number = 12;
+        var sum = number * 2;
+        System.out.println(word1.length());
+        System.out.println(sum.length());
     }
 }
