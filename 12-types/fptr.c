@@ -10,7 +10,7 @@ int multiply(int x, int y) {
     return x*y;
 }
 
-int doit(function f, int a, int b) {
+int doit(int f(int, int), int a, int b) {
     return f(a,b);
 }
 
