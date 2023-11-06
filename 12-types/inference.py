@@ -3,3 +3,5 @@ def main():
     if True:
         word1 = 6
     print(word1)
+
+main()
