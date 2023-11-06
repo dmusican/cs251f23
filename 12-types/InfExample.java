@@ -4,3 +4,6 @@ public class InfExample {
         // String word1 = "hello";
         // infers (figures out) that word1 is a String
         var word1 = "hello";
+        word1 = 3;
+    }
+}
