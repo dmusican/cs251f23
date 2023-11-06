@@ -10,6 +10,11 @@ int multiply(int x, int y) {
     return x*y;
 }
 
+int doit(function f, int a, int b) {
+    return f(a,b);
+}
+
+
 int main() {
     printf("%i\n", doit(add, 3, 5));
     printf("%i\n", doit(multiply, 3, 5));
