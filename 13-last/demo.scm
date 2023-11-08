@@ -25,3 +25,7 @@
              1
              (* x (fact (- x 1)))))))
   (fact 5))
+
+;;; not for assignment
+(let ((x 3) (y x))
+  12)
