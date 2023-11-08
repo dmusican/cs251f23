@@ -11,7 +11,7 @@
 
 (let ((fact
        (lambda (x)
-         (if (equals? x 1)
+         (if (equal? x 1)
              1
              (* x (fact (- x 1)))))))
   (fact 5))
