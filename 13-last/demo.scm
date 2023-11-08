@@ -27,5 +27,5 @@
   (fact 5))
 
 ;;; not for assignment
-(let ((x 3) (y x))
+(let* ((x 3) (y x))
   12)
