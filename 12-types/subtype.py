@@ -19,7 +19,7 @@ def main():
 
     spot.speak()
     fluffy.speak()
-    longneck.speak()
+    # longneck.speak()
 
 
 main()
