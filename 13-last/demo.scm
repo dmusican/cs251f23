@@ -27,5 +27,6 @@
   (fact 5))
 
 ;;; not for assignment
+;;; nests new frames for every binding
 (let* ((x 3) (y x))
   12)
