@@ -2,7 +2,7 @@ import java.util.*;
 
 public class CallBy {
    public static void foo(ArrayList<Integer> x) {
-      x.set(0) = 6;
+      x.set(0,6);
    }
 
    public static void main(String[] args ){
