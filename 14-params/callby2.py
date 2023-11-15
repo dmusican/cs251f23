@@ -4,7 +4,7 @@ def foo(x):
 def main():
    a = [5]
    print(a)
-   # foo(a)
-   # print(a)
+   foo(a)
+   print(a)
 
 main()
