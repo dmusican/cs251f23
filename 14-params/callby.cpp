@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void foo(int x) {
+void foo(pass-by-reference int x) {
    x = 6;
 }
 
