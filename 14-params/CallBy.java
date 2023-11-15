@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class CallBy {
    public static void foo(ArrayList<Integer> x) {
       x.set(0) = 6;
