@@ -1,5 +1,5 @@
 def foo(x):
-   x = 6
+   x[0] = 6
 
 def main():
    a = [5]
