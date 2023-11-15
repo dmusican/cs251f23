@@ -1,12 +1,8 @@
-#include <stdio.h>
+def foo(x):
+   x = 6
 
-void foo(int x) {
-   x = 6;
-}
-
-int main() {
-   int a = 5;
-   printf("%i\n",a);
+def main():
+   a = 5
+   print(a)
    foo(a);
-   printf("%i\n",a);
-}
+   print(a)
